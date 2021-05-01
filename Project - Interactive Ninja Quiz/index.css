@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: black;
+    color: wheat;
+    margin: 3%;
+}
+.quizz
+{
+    text-align: center;
+}
+.head
+{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.scores
+{
+    margin-top: 4%;
+    display:none;
+    font-size: xx-large;
+}
+.form
+{
+    align-content: center;
+    margin-top: 8%;
+}
+.form h2{
+    font-size: 35px;
+    text-decoration: underline;
+}
+.questions
+{
+    margin-top: 5%;
+}
+.questions h1
+{
+    margin-top: 4%;
+    font-size: 30px;
+}
+.options
+{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.A1,.B1,.C1,.D1,.A1,.B1,.C1,.D1
+{
+    /* margin-top: 4%; */
+    margin-left: 2%;
+    border: 1px solid white;
+    padding: 2%;
+    cursor: pointer;
+}
+button
+{
+    margin-top: 5%;
+    background-color: rgba(0, 0, 0, 1);
+    border: 1px solid white;
+    color: white;
+    font-size: xx-large;
+    padding: 2%;
+}
+.butt
+{
+    margin-top: 5%;
+    background-color: rgba(0, 0, 0, 1);
+    border: 1px solid white;
+    color: white;
+    font-size: xx-large;
+    padding: 2%;
+}
+.A:hover,.B:hover,.C:hover,.D:hover,button:hover
+{
+    background-color: rgba(131, 123, 123, 1);
+    color: rgba(0, 0, 0, 1);
+
+}
+h3{
+    font-size: x-large;
+}
+
+

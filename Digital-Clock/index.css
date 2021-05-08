@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+   background-color: blueviolet;
+}   
+.clockBody{
+    text-align: center;
+    padding-top: 25%;
+    color: blanchedalmond;
+    font-size: 40px;
+}
+.clockBody span{
+    background-color:darkorchid;
+}
